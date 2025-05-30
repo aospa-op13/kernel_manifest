@@ -67,4 +67,5 @@
   <project remote="clo-la" name="platform/vendor/qcom-opensource/devicetree" path="kernel_platform/qcom/opensource/devicetree" revision="385dd05d0024095797a6af1f50742cf5982263f2" upstream="refs/heads/kernel.lnx.6.6.r1-rel">
     <linkfile dest="kernel_platform/msm-kernel/arch/arm64/boot/dts/vendor" src="."/>
   </project>
+  <include name="DISPLAY.LA.5.0.r1-06600-pakala.0.xml" />
 </manifest>
