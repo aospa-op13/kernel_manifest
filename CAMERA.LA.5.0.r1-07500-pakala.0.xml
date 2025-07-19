@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+  <remote fetch="https://git.codelinaro.org/clo/la" name="clo-la"/>
+  <default remote="clo-la" revision="dummy_revision" sync-c="true" sync-tags="false"/>
+  <project remote="clo-la" name="meta-qti-camera" path="poky/meta-qti-camera" revision="260b00d14b9e6dc93b18814866a565650adbed35" upstream="refs/heads/camera-meta.le.8.0.r3-rel"/>
+  <project remote="clo-la" name="platform/external/glide_4.16" path="external/glide_4.16" revision="4c52fdad4ee709b054ae5c5a5bffadb8e424debf" upstream="refs/heads/camera-SnapdragonCamera.lnx.8.0.r3-rel"/>
+  <project remote="clo-la" name="platform/packages/apps/SnapdragonCamera" path="vendor/codeaurora/packages/apps/SnapdragonCamera" revision="943cb748c01cdb4c8500b68ace5c2c56f53f86a1" upstream="refs/heads/camera-SnapdragonCamera.lnx.8.0.r3-rel">
+    <linkfile dest="vendor/qcom/defs/product-defs/vendor/app_snapcam_product.mk" src="app_snapcam_system_product.mk"/>
+  </project>
+  <project remote="clo-la" name="platform/vendor/opensource/camera-devicetree" path="vendor/qcom/opensource/camera-devicetree" revision="a1378b76f00ab00c73d0c2e0e1ff1ac22a79305c" upstream="refs/heads/camera-kernel.lnx.8.0.r1-rel"/>
+  <project remote="clo-la" name="platform/vendor/opensource/camera-kernel" path="vendor/qcom/opensource/camera-kernel" revision="8d3688cc2ae5e1ee919fdc7206923cb9a6b3efdf" upstream="refs/heads/camera-kernel.lnx.8.0.r1-rel">
+    <linkfile dest="vendor/qcom/defs/board-defs/vendor/camera-kernel_board.mk" src="board.mk"/>
+    <linkfile dest="vendor/qcom/defs/product-defs/vendor/camera-kernel_product.mk" src="product.mk"/>
+  </project>
+  <project remote="clo-la" name="platform/vendor/qcom/opensource/camera-extension" path="vendor/qcom/opensource/camera-extension" revision="66869616a84828a9fae231009859c9519676c7f7" upstream="refs/heads/camera-SnapdragonCamera.lnx.8.0.r3-rel">
+    <linkfile dest="vendor/qcom/defs/product-defs/vendor/app_cam_extension_product.mk" src="app/src/main/app_cam_extension_product.mk"/>
+  </project>
+</manifest>

@@ -67,5 +67,11 @@
   <project remote="clo-la" name="platform/vendor/qcom-opensource/devicetree" path="kernel_platform/qcom/opensource/devicetree" revision="385dd05d0024095797a6af1f50742cf5982263f2" upstream="refs/heads/kernel.lnx.6.6.r1-rel">
     <linkfile dest="kernel_platform/msm-kernel/arch/arm64/boot/dts/vendor" src="."/>
   </project>
+  <include name="CAMERA.LA.5.0.r1-07500-pakala.0.xml" />
+  <include name="CV.LA.2.1.r1-03500-pakala.0.xml" />
   <include name="DISPLAY.LA.5.0.r1-06600-pakala.0.xml" />
+  <include name="AUDIO_HANDSET.LA.10.0.r1-06600-pakala.0.xml" />
+  <include name="GRAPHICS.LA.15.0.r1-06300-pakala.0.xml" />
+  <include name="VIDEO.LA.5.0.r1-05900-pakala.0.xml" />
+  <include name="WLAN.LA.1.0.r1-08000-pakala.0.xml" />
 </manifest>
